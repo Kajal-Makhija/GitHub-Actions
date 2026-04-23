@@ -9,6 +9,6 @@ jobs:
       - name: Print a message
         run: echo "Hello"
       - name: Calculate
-        run: expr 90 +90
+        run: expr 90 + 90
       - name: check OS info of runner
         run: cat /etc/os-release
